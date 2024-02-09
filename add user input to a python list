@@ -1,0 +1,10 @@
+#this function adds append items to list by taking input from the user
+add_item_to_list= input("Enter item to add to list :")
+my_list.append(add_item_to_list)
+my_list=[" "]
+another_item=input("add another item y/n ?")
+while another_item=="y" :
+  add_item_to_list= input("Enter item to add to list :")
+  another_item=input("add another item y/n ?")
+  my_list.append(add_item_to_list)
+print(my_list)
